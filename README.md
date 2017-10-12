@@ -14,7 +14,7 @@ For Windows, install XAMPP using the .exe file. (For other OS's please see their
 
 It will install a xampp folder onto you C: drive. Navigate to this folder. Find the htdocs folder within the xampp folder.
 
-Download the two solution folders from Github: Devprox_Test1 and Devprox_Test2. Copy and paste these two folders into the htdocs folder. XAMPP serves the Webpages from the htdocs folder.
+Download the two solution files (.zip files) from the Github project and extract them: Devprox_Test1 and Devprox_Test2. Copy and paste these two folders into the htdocs folder. XAMPP serves the Webpages from the htdocs folder.
 
 Navigate to xampp/php/php.ini and make the following changes to this file to ensure that large files (e.g. 1 milllion records) will be processed and uploaded to the server without the operation timing out or running out of memory.
 
