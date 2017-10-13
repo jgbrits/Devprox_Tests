@@ -49,6 +49,11 @@ When the application for test 1 was run in your browser and the form submitted, 
 
 When the application for test 2 was run on your browser and the CSV file uploaded, the database "dbdevproxtest2" with table "csv_import" should have been created. View the records inside by clicking on the table name.
 
+To test the uniqueness of the records uploaded, on phpMyAdmin, go to the "Structure" tab, select the following fields: name, surname, initials, age, dob. Now click on "Unique" button underneath the table structure. If no duplicate records were found, the query should be excuted successfully.
+
+This code was tested on the following operating systems running XAMPP - Windows 7, Kali Linux and MacOS Sierra. 
+This code was tested using the following browsers: Chrome, FireFox, Safari and IE8.
+
 
 
 
