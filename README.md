@@ -16,7 +16,7 @@ It will install a xampp folder onto you C: drive. Navigate to this folder. Find 
 
 Download the two solution files (.zip files) from the Github project and extract them: Devprox_Test1 and Devprox_Test2. Copy and paste these two folders into the htdocs folder. XAMPP serves the Webpages from the htdocs folder.
 
-Navigate to xampp/php/php.ini and make the following changes to this file to ensure that large files (e.g. 1 milllion records) will be processed and uploaded to the server without the operation timing out or running out of memory.
+Navigate to xampp/php/php.ini (for Linux and MacOS this file is located in the "etc" folder e.g. xampp/etc/php.ini) and make the following changes to this file to ensure that large files (e.g. 1 milllion records) will be processed and uploaded to the server without the operation timing out or running out of memory.
 
 In your "php.ini" file:
 
