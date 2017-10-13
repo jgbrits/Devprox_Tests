@@ -36,6 +36,8 @@ Save and close php.ini
 
 NOTE: Based on the specs of your server/PC, you might need to increase the time values. For slower PCs the execution of the PHP scripts will take longer. (Code tested on an Intel 2.2GHz Intel core i7 processor).
 
+The login details for the MySQL database is located in the "login.php" files in both test folders. The login details has been set to the default username and password when XAMPP is first installed, therefore the MySQL connection should be established automocatically by these applcations. If you however need to change the username and password for some reason, change it in the "login.php" files for both tests.
+
 Find the xampp-control.exe application inside the xampp folder. Open it. When the application starts, click on the start buttons next to Apache and MySQL. When it started, it will turn green, If it does not, it could mean that another application/s are using the default ports for either the Apache Webserver or the MySQL database. In that case, either free up those ports on your machine, or change the default ports using the config buttons.
 
 Once both Apache and MySQL are started, you are ready to serve websites from your local server.
