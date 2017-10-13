@@ -36,7 +36,7 @@ Save and close php.ini
 
 NOTE: Based on the specs of your server/PC, you might need to increase the time values. For slower PCs the execution of the PHP scripts will take longer. (Code tested on an Intel 2.2GHz Intel core i7 processor).
 
-The login details for the MySQL database is located in the "login.php" files in both test folders. The login details has been set to the default username and password when XAMPP is first installed, therefore the MySQL connection should be established automocatically by these applcations. If you however need to change the username and password for some reason, change it in the "login.php" files for both tests.
+The login details for the MySQL database is located in the "login.php" files in both test folders. The login details has been set to the default username and password when XAMPP is first installed, therefore the MySQL connection should be established automocatically by these applications. If you however need to change the username and password for some reason, change it in the "login.php" files for both tests.
 
 Find the xampp-control.exe application inside the xampp folder. Open it. When the application starts, click on the start buttons next to Apache and MySQL. When it started, it will turn green, If it does not, it could mean that another application/s are using the default ports for either the Apache Webserver or the MySQL database. In that case, either free up those ports on your machine, or change the default ports using the config buttons.
 
@@ -51,7 +51,7 @@ When the application for test 1 was run in your browser and the form submitted, 
 
 When the application for test 2 was run on your browser and the CSV file uploaded, the database "dbdevproxtest2" with table "csv_import" should have been created. View the records inside by clicking on the table name.
 
-To test the uniqueness of the records uploaded, on phpMyAdmin, go to the "Structure" tab, select the following fields: name, surname, initials, age, dob. Now click on "Unique" button underneath the table structure. If no duplicate records were found, the query should be excuted successfully.
+To test the uniqueness of the records uploaded for test 2, on phpMyAdmin, go to the "Structure" tab, select the following fields: name, surname, initials, age, dob. Now click on the "Unique" button underneath the table structure. If no duplicate records were found, the query should be excuted successfully.
 
 After a CSV file has been uploaded to the database, you will need to use phpMyAdmin to delete the records before trying to upload another file for testing purposes, since MySQL will not accept records with duplicate ID's.
 
