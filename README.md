@@ -51,6 +51,8 @@ When the application for test 2 was run on your browser and the CSV file uploade
 
 To test the uniqueness of the records uploaded, on phpMyAdmin, go to the "Structure" tab, select the following fields: name, surname, initials, age, dob. Now click on "Unique" button underneath the table structure. If no duplicate records were found, the query should be excuted successfully.
 
+After a CSV file has been uploaded to the database, you will need to use phpMyAdmin to delete the records before trying to upload another file for testing purposes, since MySQL will not accept records with duplicate ID's.
+
 This code was tested on the following operating systems running XAMPP - Windows 7, Kali Linux and MacOS Sierra. 
 This code was tested using the following browsers: Chrome, FireFox, Safari and IE8.
 
